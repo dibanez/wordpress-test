@@ -14,7 +14,7 @@ if ( !isset($wp_did_header) ) {
 
 	// Set up the WordPress query.
 	wp();
-	echo $_SERVER['SERVER_ADDR'];
+	
 	// Load the theme template.
 	require_once( ABSPATH . WPINC . '/template-loader.php' );
 
