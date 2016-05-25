@@ -32,6 +32,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
+	<div><?php echo $_SERVER['SERVER_ADDR']; ?></div>
 	<?php if ( get_header_image() ) : ?>
 	<div id="site-header">
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
